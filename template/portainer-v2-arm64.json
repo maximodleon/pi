@@ -54,7 +54,7 @@
 					"description": "for UserID"
 				},
 				{
-					"name": "PGID",
+					"name": "PGID",ma
 					"label": "PGID",
 					"default": "1000",
 					"description": "for GroupID"
@@ -3686,7 +3686,7 @@
 					"name": "MYSQL_ROOT_PASSWORD"
 				}
 			],
-			"image": "linuxserver/mariadb:arm64v8-latest",
+			"image": "mariadb:arm64v8",
 			"logo": "https://raw.githubusercontent.com/pi-hosted/pi-hosted/master/images/mariadb-icon.png",
 			"name": "mariadb",
 			"platform": "linux",
